@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../LSTM_SA/LSTM_Sentiment-Analysis_zh-tw"
+		},
+		{
+			"path": "../../selenium-crawler-googlemap2/selenium-crawler-googlemap2"
+		},
+		{
+			"path": "../../scrapy"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {}
+}

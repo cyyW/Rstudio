@@ -15,7 +15,7 @@ R語言學習
 * 問題2 [歐式距離 (Euclidean distance)](https://github.com/cyyW/Rstudio/blob/main/ch2/1-homework2.R) :
   * 定義第 i 朵花與第 j 朵花的差異程度為兩朵花資料的歐式距離 (Euclidean distance)，其中 xik 代表第 i 朵花在 iris資料集合中第 k 個變數的數值。試著用 for 迴圈建立一個 150 x 150 的矩陣 A，其中 Aij=d(i,j)。
  
-**作業2** :「元大寶來台灣卓越50證券投資信託基金」(俗稱 0050) 成分股從 2011 年到 2015 年的股價資料，用 tidyr 進行資料整理
+**作業2** :「元大寶來台灣卓越50證券投資信託基金」成分股從 2011 年到 2015 年的股價資料，用 tidyr 進行資料整理
 * 問題1 根據tidy 原則，這個資料集合有下列問題
   * 1.Column 其實是值而不是變數；2.把變數當成值 ；3.一個變數被分存在不同 columns 中
 * 問題2 請利用 gather 函數，將資料整理成以下四個 columns 的格式（只顯示前 6 個 row）

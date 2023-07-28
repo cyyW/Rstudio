@@ -15,15 +15,10 @@ R語言學習
 * 問題2 [歐式距離 (Euclidean distance)](https://github.com/cyyW/Rstudio/blob/main/ch2/1-homework2.R) :
   * 定義第 i 朵花與第 j 朵花的差異程度為兩朵花資料的歐式距離 (Euclidean distance)，其中 xik 代表第 i 朵花在 iris資料集合中第 k 個變數的數值。試著用 for 迴圈建立一個 150 x 150 的矩陣 A，其中 Aij=d(i,j)。
  
-**作業2** :「元大寶來台灣卓越50證券投資信託基金」成分股從 2011 年到 2015 年的股價資料，用 tidyr 進行資料整理
-* 問題1 根據tidy 原則，這個資料集合有下列問題
-  * 1.Column 其實是值而不是變數；2.把變數當成值 ；3.一個變數被分存在不同 columns 中
-* 問題2 請利用 gather 函數，將資料整理成以下四個 columns 的格式（只顯示前 6 個 row）
-  * security_id, type, date, price
-* 問題3 請利用 spread 函數，將資料整理成包含以下四個 columns 的格式
-  * securty_id, date, open, close
-* 問題4 上一個問題完成後的資料集合，date 的資料裡面是 yyyy/mm/dd 的形式，我們希望將資料的年、月、日分開為三個 columns。請問該資料的程式碼應該如何撰寫？
-* 答2~4 code : [2-HW TWSE_Stock data.R](https://github.com/cyyW/Rstudio/blob/main/ch3/2-HW%20TWSE_Stock%20data.R)
+**作業2** : 第三章 R 語言與 Tidy 資料原則 - 股市資料整理 
+* 個案說明 : 「元大寶來台灣卓越50證券投資信託基金」成分股從 2011 年到 2015 年的股價資料，用 tidyr 進行資料整理 
+* 完整代碼 : [2-HW TWSE_Stock data.R](https://github.com/cyyW/Rstudio/blob/main/ch3/2-HW%20TWSE_Stock%20data.R)
+* 作品呈現 : [第 3 章，作業 1 - Ch 2 - R 語言與 Tidy 資料原則 - 股市資料整理](https://western-rule-4a4.notion.site/3-1-Ch-2-R-Tidy-ef3c1d8d98e940099ce0243c460d948b?pvs=4)
 
 **作業3** : 第七章 A/B 測試概念與個案實作練習 [(詳細背景)](https://github.com/cyyW/Rstudio/blob/main/ch7%20A%E3%80%81B%E6%B8%AC%E8%A9%A6/ch%207%20%E8%B3%87%E6%96%99%E8%83%8C%E6%99%AF.pdf)
 * 個案說明 : 利用「使用者購買行為」的資料集分析實驗設計的結果，了解影響消費者購買金額的重要變因，並探究哪個因素最能夠影響實驗結果。 
